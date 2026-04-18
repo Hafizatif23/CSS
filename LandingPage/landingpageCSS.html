@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="landingpage.css">
+</head>
+<!-- <style>
+    * {
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .nav {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: antiquewhite;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 100%;
+    }
+
+    .logo img {
+        height: 80%;
+        background-color: antiquewhite;
+    }
+
+    .opt {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        width: 50%;
+        height: 100%;
+    }
+
+    .opt a {
+        text-decoration: none;
+        color: black;
+        font-size: larger;
+        font-weight: bold;
+    }
+
+    .opt a:hover {
+        color: red;
+        background-color: black;
+        padding: 20px;
+    }
+
+    .apple {
+        margin: auto;
+        background-color: aqua;
+        display: flex;
+        /* justify-content: space-between; */
+        width: 60%;
+        height: 50vh;
+    }
+
+    .apple img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .cont1 {
+        width: 60%;
+        height: 100%;
+    }
+
+    .cont2 {
+        padding-left: 10px;
+        padding-top: 80px;
+        width: 40%;
+        height: 100%;
+    }
+
+    #btn1 {
+        padding: 10px;
+        background-color: red;
+        border-radius: 3px;
+        color: white;
+        border: none;
+    }
+
+    .about {
+        margin: auto;
+        width: 60%;
+        height: 150vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about img {
+        width: 100%;
+        height: 50%;
+    }
+
+    .Varieties1 {
+        width: 100%;
+        height: 140vh;
+        background-color: silver;
+    }
+
+    .Varieties {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        width: 60%;
+        height: 140vh;
+    }
+
+    #cards {
+        height: 80%;
+        width: 100%;
+    }
+
+    .row1 {
+        display: flex;
+        justify-content: space-between;
+        height: 50%;
+        width: 100%;
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .card4,
+    .card5,
+    .card6 {
+        height: 100%;
+        width: 32%;
+    }
+
+    .card1 img,
+    .card2 img,
+    .card3 img,
+    .card4 img,
+    .card5 img,
+    .card6 img {
+        width: 95%;
+        height: 60%;
+        padding: 10px;
+    }
+
+    .row2 {
+        display: flex;
+        justify-content: space-between;
+        height: 50%;
+        width: 100%;
+    }
+
+    .cont {
+        padding-left: 15px;
+    }
+
+
+    .Service {
+        height: 100vh;
+        width: 100%;
+        background-color: rgba(154, 75, 7, 0.911);
+    }
+
+    .services {
+        display: flex;
+        flex-direction: column;
+        padding-top: 10vh;
+        justify-content: center;
+        align-items: center;
+        gap: 10vh;
+        font-size: larger;
+
+    }
+
+    .Ss {
+        display: grid;
+        gap: 10vh;
+    }
+
+
+
+    .benefit {
+        height: 100vh;
+        width: 100%;
+        background-color: palevioletred;
+    }
+
+    .video {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20vh;
+        gap: 10vh;
+        height: 70vh;
+        width: 100%;
+    }
+
+    .video iframe {
+        width: 70%;
+        height: 80%;
+    }
+
+
+    .contact{
+        background-color: rgb(177, 170, 170);
+        height: 100vh;
+        width: 100%;
+    }
+    .cnt{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20vh;
+    }
+    .cnt div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:20vh ;
+        width: 50vh;
+    }
+    .int{
+        padding: 10px;
+        height: 6vh;
+        width: 70%;
+    }
+    .button{
+        font-size:medium;
+        color: white;
+        background-color: red;
+        padding: 10px;
+        width: 35%;
+        height: 9vh;
+
+    }
+</style> -->
+
+<body>
+    <header>
+        <nav class="nav">
+            <div class="logo">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYwKfgtsMKcCS9S9qLWIx3CvMGD5nXdFrN6w&s"
+                    alt="missing">
+                <h1>Apple</h1>
+            </div>
+            <div class="opt">
+                <a href="#service">Services</a>
+                <a href="#product">Products</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <Section class="apple">
+            <div class="cont1">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjyvewZeCW0-OwrHOhenFL8sQuMxZ71tuSGQ&s"
+                    alt="missing">
+            </div>
+            <div class="cont2">
+                <h1>Fresh, Crispy, Heavenly.</h1>
+                <br><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> <br>
+                <button id="btn1">Buy Now</button>
+            </div>
+        </Section>
+        <section id="about" class="about">
+            <h1>ABOUT US</h1>
+            <br><br><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, ipsa! Qui natus iste magnam
+                mollitia nisi voluptatum blanditiis laborum aperiam expedita placeat unde rem tempora enim quidem ut,
+                dignissimos optio! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae suscipit minus
+                adipisci totam error cupiditate architecto rerum, mollitia consequuntur facere nesciunt facilis corrupti
+                ad iusto eius ea. Consequuntur, laborum vero?</p>
+            <img src="https://i.pinimg.com/736x/e9/4c/d0/e94cd0bee910879ce5274ef155e954b5.jpg" alt="missing">
+        </section>
+        <section id="product" class="Varieties1">
+            <div class="Varieties">
+                <h1>VARIETIES</h1>
+                <div id="cards">
+                    <div class="row1">
+                        <div class="card1">
+                                <img src="https://hips.hearstapps.com/hmg-prod/images/red-ripe-apples-on-a-white-wooden-background-royalty-free-image-1627315297.jpg?crop=0.668xw:1.00xh;0.318xw,0"
+                                alt="missing">
+                            <br> <br><br>
+                            <div class="cont">
+                                <h1 class="heading">Baldwin</h1> <br>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, explicabo!</p>
+                            </div>
+
+                        </div>
+                        <div class="card2">
+                            <img src="https://hips.hearstapps.com/hmg-prod/images/gravenstein-apples-on-my-tree-royalty-free-image-1627315369.jpg?crop=0.8573xw:1xh;center,top"
+                                alt="missing"> <br><br><br>
+                            <div class="cont">
+                                <h1 class="heading">Gravenstein</h1> <br>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, explicabo!</p>
+                            </div>
+                        </div>
+                        <div class="card3">
+                            <img src="https://hips.hearstapps.com/hmg-prod/images/fresh-apple-royalty-free-image-1627315502.jpg?crop=0.641xw:1.00xh;0.318xw,0"
+                                alt="missing"> <br><br><br>
+                            <div class="cont">
+                                <h1 class="heading">McIntosh</h1> <br>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, explicabo!</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row2">
+                        <div class="card4">
+                            <img src="https://hips.hearstapps.com/hmg-prod/images/close-up-of-apple-against-white-background-royalty-free-image-1627315766.jpg?crop=0.483xw:0.724xh;0.247xw,0.0765xh"
+                                alt="missing"> <br><br><br>
+                            <div class="cont">
+                                <h1 class="heading">York</h1> <br>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, explicabo!</p>
+                            </div>
+
+                        </div>
+                        <div class="card5">
+                            <img src="https://hips.hearstapps.com/hmg-prod/images/full-frame-shot-of-granny-smith-apples-royalty-free-image-1627315895.jpg?crop=0.75xw:1xh;center,top"
+                                alt="missing"> <br><br><br>
+                            <div class="cont">
+                                <h1 class="heading">Granny Smith</h1> <br>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, explicabo!</p>
+                            </div>
+                        </div>
+                        <div class="card6">
+                            <img src="https://hips.hearstapps.com/hmg-prod/images/yellow-apples-royalty-free-image-1627315951.jpg?crop=0.668xw:1.00xh;0.0952xw,0"
+                                alt="missing"> <br><br><br>
+                            <div class="cont">
+                                <h1 class="heading">Golden Delicious</h1> <br>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, explicabo!</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section id="service" class="Service">
+            <div class="services">
+                <h1>OUR SERVICES</h1>
+                <div class="Ss">
+                    <div>
+                        <h1>Fresh</h1> <br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime minus totam necessitatibus
+                            illum amet quisquam.</p>
+                    </div>
+                    <div>
+                        <h1>Fast</h1> <br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime minus totam necessitatibus
+                            illum amet quisquam.</p>
+                    </div>
+                    <div>
+                        <h1>Satisfying</h1> <br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime minus totam necessitatibus
+                            illum amet quisquam.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <section class="benefit">
+            <div class="video">
+                <h1>BENEFITS</h1>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/_5siHrpPnmw?si=ye-aixDb00NSNH55"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+                <div class="cnt">
+                    <h1>CONTACT</h1>
+                    <br><br><br>
+                    <h2>To make an order or just to know more, contact us:</h2>  <br><br> <br>     
+                    <div class="email">
+                        <input class="int" type="email" name="" id="" placeholder="Your Email Address">
+                        <button  class="button">Know More </button>
+                    </div>
+                </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
